@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Adicionando Personagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    label{
+        font-weight: 500;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body>
+    <main>
+        <section id="cadperson">
+            <h1 id="h1person">Personagem</h1>
+            <form action="">
+            <div class="row">
+                <div class="col">
+                    <label for="txtnomeperson" class="form-label mt-4">Nome do personagem</label>
+                    <input type="text" name="txtnomeperson" id="txtnomeperson" class="form-control" tabindex="1">
+                </div>
+                <div class="col">
+                    <label for="txtcoinperson" class="form-label mt-4">Moedas</label>
+                    <input type="text" name="txtcoinperson" id="txtcoinperson" class="form-control" tabindex="2">
+                </div>
+            </div>
+            <div class="row">
+            <div class="col"> 
+                <label for="selgenperson" class="form-label mt-2">Gênero</label>
+                <select name="selgenperson" id="selgenperson" class="form-control">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="seltipoperson" class="form-label mt-2">Tipo</label>
+                <select name="seltipoperson" id="seltipoperson" class="form-control">
+                    <option value="Humano">Humano</option>
+                    <option value="Coruja">Coruja</option>
+                    <option value="Mago">Mago</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col">
+            <label for="txtLat" class="form-label mt-2">Latitude</label>
+            <input type="text" name="txtLat" id="txtLat" class="form-control" value="-22.1203880841747">
+        </div>
+        <div class="col">
+            <label for="txtLong" class="form-label mt-2">Longitude</label>
+            <input type="text" name="txtLong" id="txtLong" class="form-control" value="-51.40563155161583">
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" value="Cadastrar" name="btcadperson" id="btcadperson" class="btn btn-warning mt-4">
+    </div>
+        </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

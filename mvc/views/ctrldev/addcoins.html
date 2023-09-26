@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Adicionando Moedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    label{
+        font-weight: 500;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body>
+    <main>
+        <section id="cadperson">
+            <h1 id="h1coin">Moeda</h1>
+            <form action="">
+            <div class="row">
+                <div class="col">
+                    <label for="txtnomecoin" class="form-label mt-4">Nome da moeda</label>
+                    <input type="text" name="txtnomecoin" id="txtnomecoin" class="form-control" tabindex="1">
+                </div>
+                <div class="col">
+                    <label for="txtvaluecoin" class="form-label mt-4">Valor</label>
+                    <input type="number" name="txtvaluecoin" id="txtvaluecoin" class="form-control" value required="R$" tabindex="2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="txtimgcoin" class="form-label mt-4">Imagem</label>
+                    <input type="file" id="txtimgcoin" name="txtimgcoin" class="form-control" tabindex="=3">
+                </div>
+                </div>
+                <div class="row">
+            <div class="col">
+                <input type="submit" value="Cadastrar" name="btcadacoin" id="btcadcoin" class=" form-control btn btn-warning mt-5" tabindex="4">
+            </div>
+        </div>
+        </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
